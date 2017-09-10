@@ -46,6 +46,7 @@
 
         ksort($students);
         
+        // Displays the students.
         foreach($students as $student)
             echo $student->toString();
         ?>
